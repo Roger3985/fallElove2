@@ -8,7 +8,7 @@ public class Member {
     private String mName;
     private String memAcc;
     private String memPwd;
-    private Integer memMob;
+    private String memMob;
     private Integer mGender;
     private String memMail;
     private String memAdd;
@@ -32,11 +32,11 @@ public class Member {
         this.memNo = memNo;
     }
 
-    public String getMName() {
+    public String getmName() {
         return mName;
     }
 
-    public void setMName(String mName) {
+    public void setmName(String mName) {
         this.mName = mName;
     }
 
@@ -56,19 +56,19 @@ public class Member {
         this.memPwd = memPwd;
     }
 
-    public Integer getMemMob() {
+    public String getMemMob() {
         return memMob;
     }
 
-    public void setMemMob(Integer memMob) {
+    public void setMemMob(String memMob) {
         this.memMob = memMob;
     }
 
-    public Integer getMGender() {
+    public Integer getmGender() {
         return mGender;
     }
 
-    public void setMGender(Integer mGender) {
+    public void setmGender(Integer mGender) {
         this.mGender = mGender;
     }
 
