@@ -1,4 +1,4 @@
-package rental_cyh;
+package JavaBean.rental;
 
 import java.sql.Date;
 

@@ -1,4 +1,4 @@
-package rental_Ni;
+package JavaBean.rental;
 
 public class RentalCategory implements java.io.Serializable{
     private Integer rCatNo;
