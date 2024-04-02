@@ -32,11 +32,11 @@ public class Member {
         this.memNo = memNo;
     }
 
-    public String getmName() {
+    public String getMName() {
         return mName;
     }
 
-    public void setmName(String mName) {
+    public void setMName(String mName) {
         this.mName = mName;
     }
 
@@ -64,11 +64,11 @@ public class Member {
         this.memMob = memMob;
     }
 
-    public Integer getmGender() {
+    public Integer getMGender() {
         return mGender;
     }
 
-    public void setmGender(Integer mGender) {
+    public void setMGender(Integer mGender) {
         this.mGender = mGender;
     }
 
