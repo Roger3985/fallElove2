@@ -1,49 +1,51 @@
 package JavaBean.rental;
 
+import java.math.BigDecimal;
+
 public class RentalCategory implements java.io.Serializable{
     private Integer rCatNo;
     private String rCatName;
     private Integer rStockQty;
     private Integer rRentedQty;
-    private Double rDesPrice;
+    private BigDecimal rDesPrice;
 
-    public Integer getrCatNo(){
+    public Integer getrCatNo() {
         return rCatNo;
     }
 
-    public void setrCatNo(Integer rCatNo){
+    public void setrCatNo(Integer rCatNo) {
         this.rCatNo = rCatNo;
     }
 
-    public String getrCatName(){
+    public String getrCatName() {
         return rCatName;
     }
 
-    public void setrCatName(String rCatName){
+    public void setrCatName(String rCatName) {
         this.rCatName = rCatName;
     }
 
-    public Integer getrStockQty(){
+    public Integer getrStockQty() {
         return rStockQty;
     }
 
-    public void setrStockQty(Integer rStockQty){
+    public void setrStockQty(Integer rStockQty) {
         this.rStockQty = rStockQty;
     }
 
-    public Integer getrRentedQty(){
+    public Integer getrRentedQty() {
         return rRentedQty;
     }
 
-    public void setrRentedQty(Integer rRentedQty){
+    public void setrRentedQty(Integer rRentedQty) {
         this.rRentedQty = rRentedQty;
     }
 
-    public Double getrDesPrice(){
+    public BigDecimal getrDesPrice() {
         return rDesPrice;
     }
 
-    public void setrDesPrice(Double rDesPrice){
+    public void setrDesPrice(BigDecimal rDesPrice) {
         this.rDesPrice = rDesPrice;
     }
 }

@@ -1,6 +1,7 @@
 package article;
 
 import java.sql.Date;
+import java.sql.Timestamp
 
 public class ColumnArticle {
 
@@ -8,9 +9,9 @@ public class ColumnArticle {
     private Integer admNo;
     private String artTitle;
     private String artContent;
-    private Date artTime;
+    private Timestamp artTime;
     private Integer artCatNo;
-    private Integer artStat;
+    private Byte artStat;
 
     public Integer getArtNo() {
         return artNo;
@@ -44,11 +45,11 @@ public class ColumnArticle {
         this.artContent = artContent;
     }
 
-    public Date getArtTime() {
+    public Timestamp getArtTime() {
         return artTime;
     }
 
-    public void setArtTime(Date artTime) {
+    public void setArtTime(Timestamp artTime) {
         this.artTime = artTime;
     }
 
@@ -60,11 +61,11 @@ public class ColumnArticle {
         this.artCatNo = artCatNo;
     }
 
-    public Integer getArtStat() {
+    public Byte getArtStat() {
         return artStat;
     }
 
-    public void setArtStat(Integer artStat) {
+    public void setArtStat(Byte artStat) {
         this.artStat = artStat;
     }
 }

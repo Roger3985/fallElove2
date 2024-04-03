@@ -1,13 +1,14 @@
 package member;
 
 import java.sql.Date;
+import java.sql.Timestamp;
 
 public class Mycoupon implements java.io.Serializable{
     private Integer coupNo;
     private Integer memNo;
-    private Integer coupUsedStat;
+    private Byte coupUsedStat;
     private String coupInfo;
-    private Date coupExpDate;
+    private Timestamp coupExpDate;
 
     public Integer getCoupNo() {
         return coupNo;
@@ -25,11 +26,11 @@ public class Mycoupon implements java.io.Serializable{
         this.memNo = memNo;
     }
 
-    public Integer getCoupUsedStat() {
+    public Byte getCoupUsedStat() {
         return coupUsedStat;
     }
 
-    public void setCoupUsedStat(Integer coupUsedStat) {
+    public void setCoupUsedStat(Byte coupUsedStat) {
         this.coupUsedStat = coupUsedStat;
     }
 
@@ -41,11 +42,11 @@ public class Mycoupon implements java.io.Serializable{
         this.coupInfo = coupInfo;
     }
 
-    public Date getCoupExpDate() {
+    public Timestamp getCoupExpDate() {
         return coupExpDate;
     }
 
-    public void setCoupExpDate(Date coupExpDate) {
+    public void setCoupExpDate(Timestamp coupExpDate) {
         this.coupExpDate = coupExpDate;
     }
 }

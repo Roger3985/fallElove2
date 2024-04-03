@@ -1,13 +1,14 @@
 package JavaBean.rental;
 
+import java.math.BigDecimal;
 import java.sql.Date;
 
 public class RentalOrderDetails {
 
     private Integer ROrdNo;
     private Integer RNo;
-    private Double RPrice;
-    private Double RDesPrice;
+    private BigDecimal RPrice;
+    private BigDecimal RDesPrice;
 
     public Integer getROrdNo() {
         return ROrdNo;
@@ -25,20 +26,19 @@ public class RentalOrderDetails {
         this.RNo = RNo;
     }
 
-    public Double getRPrice() {
+    public BigDecimal getRPrice() {
         return RPrice;
     }
 
-    public void setRPrice(Double RPrice) {
+    public void setRPrice(BigDecimal RPrice) {
         this.RPrice = RPrice;
     }
 
-    public Double getRDesPrice() {
+    public BigDecimal getRDesPrice() {
         return RDesPrice;
     }
 
-    public void setRDesPrice(Double RDesPrice) {
+    public void setRDesPrice(BigDecimal RDesPrice) {
         this.RDesPrice = RDesPrice;
     }
-
 }

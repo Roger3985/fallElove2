@@ -1,34 +1,33 @@
 package JavaBean.rental;
 
-import java.sql.Date;
+import java.sql.Timestamp;
 
 public class RentalMyFavorite implements java.io.Serializable{
     private Integer rNo;
     private Integer memNo;
-    private Date rFavTime;
+    private Timestamp rFavTime;
 
-
-    public Integer getrNo(){
+    public Integer getrNo() {
         return rNo;
     }
 
-    public void setrNo(Integer rNo){
+    public void setrNo(Integer rNo) {
         this.rNo = rNo;
     }
 
-    public Integer getmemNo(){
+    public Integer getMemNo() {
         return memNo;
     }
 
-    public void setmemNo(Integer memNo){
+    public void setMemNo(Integer memNo) {
         this.memNo = memNo;
     }
 
-    public Date getrFavTime(){
+    public Timestamp getrFavTime() {
         return rFavTime;
     }
 
-    public void setrFavTime(Date rFavTime){
+    public void setrFavTime(Timestamp rFavTime) {
         this.rFavTime = rFavTime;
     }
 }

@@ -1,6 +1,7 @@
 package backend;
 
 import java.sql.Date;
+import java.sql.Timestamp;
 
 public class ServiceRecord implements java.io.Serializable{
     private Integer recordNo;
@@ -8,7 +9,7 @@ public class ServiceRecord implements java.io.Serializable{
     private Integer memNo;
     private Date recordTime;
     private String recordContent;
-    private Integer speaker;
+    private Byte speaker;
 
     public Integer getRecordNo() {
         return recordNo;
@@ -34,11 +35,11 @@ public class ServiceRecord implements java.io.Serializable{
         this.memNo = memNo;
     }
 
-    public Date getRecordTime() {
+    public Timestamp getRecordTime() {
         return recordTime;
     }
 
-    public void setRecordTime(Date recordTime) {
+    public void setRecordTime(Timestamp recordTime) {
         this.recordTime = recordTime;
     }
 
@@ -50,11 +51,11 @@ public class ServiceRecord implements java.io.Serializable{
         this.recordContent = recordContent;
     }
 
-    public Integer getSpeaker() {
+    public Byte getSpeaker() {
         return speaker;
     }
 
-    public void setSpeaker(Integer speaker) {
+    public void setSpeaker(Byte speaker) {
         this.speaker = speaker;
     }
 }
