@@ -1,4 +1,4 @@
-package member;
+package JavaBean.member;
 
 import java.sql.Date;
 
@@ -12,7 +12,7 @@ public class Member {
     private Integer mGender;
     private String memMail;
     private String memAdd;
-    private Double memBd;
+    private Date memBd;
     private String memCard;
     private Integer provider;
     private String clientID;
@@ -88,11 +88,11 @@ public class Member {
         this.memAdd = memAdd;
     }
 
-    public Double getMemBd() {
+    public Date getMemBd() {
         return memBd;
     }
 
-    public void setMemBd(Double memBd) {
+    public void setMemBd(Date memBd) {
         this.memBd = memBd;
     }
 
