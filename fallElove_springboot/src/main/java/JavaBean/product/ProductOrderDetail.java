@@ -1,11 +1,13 @@
-package product;
+package JavaBean.product;
+
+import java.math.BigDecimal;
 
 public class ProductOrderDetail {
     private Integer pOrdNo;
     private Integer pNo;
-    private Double pPrice;
+    private BigDecimal pPrice;
     private Integer pOrdQty;
-    private Double pRealPrice;
+    private BigDecimal pRealPrice;
     private String pComContent;
     private Integer pScore;
 
@@ -25,11 +27,11 @@ public class ProductOrderDetail {
         this.pNo = pNo;
     }
 
-    public Double getpPrice() {
+    public BigDecimal getpPrice() {
         return pPrice;
     }
 
-    public void setpPrice(Double pPrice) {
+    public void setpPrice(BigDecimal pPrice) {
         this.pPrice = pPrice;
     }
 
@@ -41,11 +43,11 @@ public class ProductOrderDetail {
         this.pOrdQty = pOrdQty;
     }
 
-    public Double getpRealPrice() {
+    public BigDecimal getpRealPrice() {
         return pRealPrice;
     }
 
-    public void setpRealPrice(Double pRealPrice) {
+    public void setpRealPrice(BigDecimal pRealPrice) {
         this.pRealPrice = pRealPrice;
     }
 

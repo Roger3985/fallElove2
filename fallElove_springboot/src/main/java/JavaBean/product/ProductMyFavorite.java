@@ -1,4 +1,4 @@
-package product;
+package JavaBean.product;
 
 public class ProductMyFavorite {
     private Integer pNo;

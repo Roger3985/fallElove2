@@ -1,4 +1,4 @@
-package product;
+package JavaBean.product;
 
 public class Cart {
     private Integer pNo;
