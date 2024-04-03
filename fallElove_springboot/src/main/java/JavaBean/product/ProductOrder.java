@@ -1,6 +1,7 @@
-package product;
+package JavaBean.product;
 
 
+import java.math.BigDecimal;
 import java.sql.Date;
 
 public class ProductOrder {
@@ -14,10 +15,10 @@ public class ProductOrder {
     private Integer pTakeMethod;
     private String pAddr;
     private Integer pPayMethod;
-    private Double pAllPrice;
+    private BigDecimal pAllPrice;
     private Integer coupNo;
-    private Double pDisc;
-    private Double pRealPrice;
+    private BigDecimal pDisc;
+    private BigDecimal pRealPrice;
     private Date pOrdTime;
     private Integer pOrdStat;
     private Integer pStat;
@@ -103,11 +104,11 @@ public class ProductOrder {
         this.pPayMethod = pPayMethod;
     }
 
-    public Double getpAllPrice() {
+    public BigDecimal getpAllPrice() {
         return pAllPrice;
     }
 
-    public void setpAllPrice(Double pAllPrice) {
+    public void setpAllPrice(BigDecimal pAllPrice) {
         this.pAllPrice = pAllPrice;
     }
 
@@ -119,19 +120,19 @@ public class ProductOrder {
         this.coupNo = coupNo;
     }
 
-    public Double getpDisc() {
+    public BigDecimal getpDisc() {
         return pDisc;
     }
 
-    public void setpDisc(Double pDisc) {
+    public void setpDisc(BigDecimal pDisc) {
         this.pDisc = pDisc;
     }
 
-    public Double getpRealPrice() {
+    public BigDecimal getpRealPrice() {
         return pRealPrice;
     }
 
-    public void setpRealPrice(Double pRealPrice) {
+    public void setpRealPrice(BigDecimal pRealPrice) {
         this.pRealPrice = pRealPrice;
     }
 

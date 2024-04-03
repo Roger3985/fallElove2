@@ -1,4 +1,4 @@
-package product;
+package JavaBean.product;
 
 public class ProductPicture {
     private Integer pPicNo;

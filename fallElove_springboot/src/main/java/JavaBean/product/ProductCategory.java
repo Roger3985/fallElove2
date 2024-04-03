@@ -1,4 +1,4 @@
-package product;
+package JavaBean.product;
 
 public class ProductCategory {
     private Integer pCatNo;
