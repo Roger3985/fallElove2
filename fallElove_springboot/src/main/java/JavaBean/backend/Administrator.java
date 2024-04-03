@@ -4,7 +4,7 @@ public class Administrator {
     private Integer admNo;
     private String admPwd;
     private String admName;
-    private Integer admStat;
+    private Byte admStat;
     private String admEmail;
     private Integer positiornNo;
 
@@ -32,11 +32,11 @@ public class Administrator {
         this.admName = admName;
     }
 
-    public Integer getAdmStat() {
+    public Byte getAdmStat() {
         return admStat;
     }
 
-    public void setAdmStat(Integer admStat) {
+    public void setAdmStat(Byte admStat) {
         this.admStat = admStat;
     }
 

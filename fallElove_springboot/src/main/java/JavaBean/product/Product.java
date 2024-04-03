@@ -1,5 +1,7 @@
 package JavaBean.product;
 
+import java.math.BigDecimal;
+
 public class Product {
     private Integer pNo;
     private Integer pCatNo;
@@ -7,8 +9,8 @@ public class Product {
     private String pInfo;
     private Integer pSize;
     private String pColor;
-    private Double pPrice;
-    private Integer pStat;
+    private BigDecimal pPrice;
+    private Byte pStat;
     private Integer pSalQty;
     private Integer pComPeople;
     private Integer pComScore;
@@ -61,19 +63,19 @@ public class Product {
         this.pColor = pColor;
     }
 
-    public Double getpPrice() {
+    public BigDecimal getpPrice() {
         return pPrice;
     }
 
-    public void setpPrice(Double pPrice) {
+    public void setpPrice(BigDecimal pPrice) {
         this.pPrice = pPrice;
     }
 
-    public Integer getpStat() {
+    public Byte getpStat() {
         return pStat;
     }
 
-    public void setpStat(Integer pStat) {
+    public void setpStat(Byte pStat) {
         this.pStat = pStat;
     }
 

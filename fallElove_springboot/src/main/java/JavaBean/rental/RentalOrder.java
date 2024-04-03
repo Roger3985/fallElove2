@@ -1,197 +1,198 @@
 package JavaBean.rental;
 
+import java.math.BigDecimal;
 import java.sql.Date;
+import java.sql.Timestamp;
 
 public class RentalOrder {
 
-    private Integer ROrdNo;
-    private Integer MemNo;
-    private String  RByrName;
-    private String  RByrPhone;
-    private String  RByrEmail;
-    private String  RRcvName;
-    private String  RRcvPhone;
-    private Integer RTakeMethod;
-    private String  RAddr;
-    private Integer RPayMethod;
-    private Double  RAllPrice;
-    private Double  RAllDepPrice;
-    private Date    ROrdTime;
-    private Date    RDate;
-    private Date    RBackDate;
-    private Date    RRealBackDate;
-    private Integer RPayStat;
-    private Integer ROrdStat;
-    private Integer RtnStat;
-    private String  RtnRemark;
-    private Double  RtnCompensation;
+    private Integer rOrdNo;
+    private Integer memNo;
+    private String  rByrName;
+    private String  rByrPhone;
+    private String  rByrEmail;
+    private String  rRcvName;
+    private String  rRcvPhone;
+    private Byte rTakeMethod;
+    private String  rAddr;
+    private Byte rPayMethod;
+    private BigDecimal rAllPrice;
+    private BigDecimal rAllDepPrice;
+    private Timestamp rOrdTime;
+    private Timestamp rDate;
+    private Timestamp rBackDate;
+    private Timestamp rRealBackDate;
+    private Byte rPayStat;
+    private Byte rOrdStat;
+    private Byte rtnStat;
+    private String rtnRemark;
+    private BigDecimal rtnCompensation;
 
-    public Integer getROrdNo() {
-        return ROrdNo;
+    public Integer getrOrdNo() {
+        return rOrdNo;
     }
 
-    public void setROrdNo(Integer ROrdNo) {
-        this.ROrdNo = ROrdNo;
+    public void setrOrdNo(Integer rOrdNo) {
+        this.rOrdNo = rOrdNo;
     }
 
     public Integer getMemNo() {
-        return MemNo;
+        return memNo;
     }
 
     public void setMemNo(Integer memNo) {
-        MemNo = memNo;
+        this.memNo = memNo;
     }
 
-    public String getRByrName() {
-        return RByrName;
+    public String getrByrName() {
+        return rByrName;
     }
 
-    public void setRByrName(String RByrName) {
-        this.RByrName = RByrName;
+    public void setrByrName(String rByrName) {
+        this.rByrName = rByrName;
     }
 
-    public String getRByrPhone() {
-        return RByrPhone;
+    public String getrByrPhone() {
+        return rByrPhone;
     }
 
-    public void setRByrPhone(String RByrPhone) {
-        this.RByrPhone = RByrPhone;
+    public void setrByrPhone(String rByrPhone) {
+        this.rByrPhone = rByrPhone;
     }
 
-    public String getRByrEmail() {
-        return RByrEmail;
+    public String getrByrEmail() {
+        return rByrEmail;
     }
 
-    public void setRByrEmail(String RByrEmail) {
-        this.RByrEmail = RByrEmail;
+    public void setrByrEmail(String rByrEmail) {
+        this.rByrEmail = rByrEmail;
     }
 
-    public String getRRcvName() {
-        return RRcvName;
+    public String getrRcvName() {
+        return rRcvName;
     }
 
-    public void setRRcvName(String RRcvName) {
-        this.RRcvName = RRcvName;
+    public void setrRcvName(String rRcvName) {
+        this.rRcvName = rRcvName;
     }
 
-    public String getRRcvPhone() {
-        return RRcvPhone;
+    public String getrRcvPhone() {
+        return rRcvPhone;
     }
 
-    public void setRRcvPhone(String RRcvPhone) {
-        this.RRcvPhone = RRcvPhone;
+    public void setrRcvPhone(String rRcvPhone) {
+        this.rRcvPhone = rRcvPhone;
     }
 
-    public Integer getRTakeMethod() {
-        return RTakeMethod;
+    public Byte getrTakeMethod() {
+        return rTakeMethod;
     }
 
-    public void setRTakeMethod(Integer RTakeMethod) {
-        this.RTakeMethod = RTakeMethod;
+    public void setrTakeMethod(Byte rTakeMethod) {
+        this.rTakeMethod = rTakeMethod;
     }
 
-    public String getRAddr() {
-        return RAddr;
+    public String getrAddr() {
+        return rAddr;
     }
 
-    public void setRAddr(String RAddr) {
-        this.RAddr = RAddr;
+    public void setrAddr(String rAddr) {
+        this.rAddr = rAddr;
     }
 
-    public Integer getRPayMethod() {
-        return RPayMethod;
+    public Byte getrPayMethod() {
+        return rPayMethod;
     }
 
-    public void setRPayMethod(Integer RPayMethod) {
-        this.RPayMethod = RPayMethod;
+    public void setrPayMethod(Byte rPayMethod) {
+        this.rPayMethod = rPayMethod;
     }
 
-    public Double getRAllPrice() {
-        return RAllPrice;
+    public BigDecimal getrAllPrice() {
+        return rAllPrice;
     }
 
-    public void setRAllPrice(Double RAllPrice) {
-        this.RAllPrice = RAllPrice;
+    public void setrAllPrice(BigDecimal rAllPrice) {
+        this.rAllPrice = rAllPrice;
     }
 
-    public Double getRAllDepPrice() {
-        return RAllDepPrice;
+    public BigDecimal getrAllDepPrice() {
+        return rAllDepPrice;
     }
 
-    public void setRAllDepPrice(Double RAllDepPrice) {
-        this.RAllDepPrice = RAllDepPrice;
+    public void setrAllDepPrice(BigDecimal rAllDepPrice) {
+        this.rAllDepPrice = rAllDepPrice;
     }
 
-    public Date getROrdTime() {
-        return ROrdTime;
+    public Timestamp getrOrdTime() {
+        return rOrdTime;
     }
 
-    public void setROrdTime(Date ROrdTime) {
-        this.ROrdTime = ROrdTime;
+    public void setrOrdTime(Timestamp rOrdTime) {
+        this.rOrdTime = rOrdTime;
     }
 
-    public Date getRDate() {
-        return RDate;
+    public Timestamp getrDate() {
+        return rDate;
     }
 
-    public void setRDate(Date RDate) {
-        this.RDate = RDate;
+    public void setrDate(Timestamp rDate) {
+        this.rDate = rDate;
     }
 
-    public Date getRBackDate() {
-        return RBackDate;
+    public Timestamp getrBackDate() {
+        return rBackDate;
     }
 
-    public void setRBackDate(Date RBackDate) {
-        this.RBackDate = RBackDate;
+    public void setrBackDate(Timestamp rBackDate) {
+        this.rBackDate = rBackDate;
     }
 
-    public Date getRRealBackDate() {
-        return RRealBackDate;
+    public Timestamp getrRealBackDate() {
+        return rRealBackDate;
     }
 
-    public void setRRealBackDate(Date RRealBackDate) {
-        this.RRealBackDate = RRealBackDate;
+    public void setrRealBackDate(Timestamp rRealBackDate) {
+        this.rRealBackDate = rRealBackDate;
     }
 
-    public Integer getRPayStat() {
-        return RPayStat;
+    public Byte getrPayStat() {
+        return rPayStat;
     }
 
-    public void setRPayStat(Integer RPayStat) {
-        this.RPayStat = RPayStat;
+    public void setrPayStat(Byte rPayStat) {
+        this.rPayStat = rPayStat;
     }
 
-    public Integer getROrdStat() {
-        return ROrdStat;
+    public Byte getrOrdStat() {
+        return rOrdStat;
     }
 
-    public void setROrdStat(Integer ROrdStat) {
-        this.ROrdStat = ROrdStat;
+    public void setrOrdStat(Byte rOrdStat) {
+        this.rOrdStat = rOrdStat;
     }
 
-    public Integer getRtnStat() {
-        return RtnStat;
+    public Byte getRtnStat() {
+        return rtnStat;
     }
 
-    public void setRtnStat(Integer rtnStat) {
-        RtnStat = rtnStat;
+    public void setRtnStat(Byte rtnStat) {
+        this.rtnStat = rtnStat;
     }
 
     public String getRtnRemark() {
-        return RtnRemark;
+        return rtnRemark;
     }
 
     public void setRtnRemark(String rtnRemark) {
-        RtnRemark = rtnRemark;
+        this.rtnRemark = rtnRemark;
     }
 
-    public Double getRtnCompensation() {
-        return RtnCompensation;
+    public BigDecimal getRtnCompensation() {
+        return rtnCompensation;
     }
 
-    public void setRtnCompensation(Double rtnCompensation) {
-        RtnCompensation = rtnCompensation;
+    public void setRtnCompensation(BigDecimal rtnCompensation) {
+        this.rtnCompensation = rtnCompensation;
     }
-
 }

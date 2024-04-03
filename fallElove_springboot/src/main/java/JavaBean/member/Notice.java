@@ -1,14 +1,15 @@
 package member;
 
 import java.sql.Date;
+import java.sql.Timestamp;
 
 public class Notice {
 
     private Integer notNo;
     private Integer memNo;
     private String notContent;
-    private Date notTime;
-    private Integer notStat;
+    private Timestamp notTime;
+    private Byte notStat;
 
     public Integer getNotNo() {
         return notNo;
@@ -34,19 +35,19 @@ public class Notice {
         this.notContent = notContent;
     }
 
-    public Date getNotTime() {
+    public Timestamp getNotTime() {
         return notTime;
     }
 
-    public void setNotTime(Date notTime) {
+    public void setNotTime(Timestamp notTime) {
         this.notTime = notTime;
     }
 
-    public Integer getNotStat() {
+    public Byte getNotStat() {
         return notStat;
     }
 
-    public void setNotStat(Integer notStat) {
+    public void setNotStat(Byte notStat) {
         this.notStat = notStat;
     }
 }

@@ -1,6 +1,7 @@
 package article;
 
 import java.sql.Date;
+import java.sql.Timestamp;
 
 public class Report {
 
@@ -8,9 +9,9 @@ public class Report {
     private Integer artReplyNo;
     private Integer memNo;
     private Integer admNo;
-    private Date reportTime;
+    private Timestamp reportTime;
     private String reportReason;
-    private Integer reportType;
+    private Byte reportType;
 
     public Integer getReportNo() {
         return reportNo;
@@ -44,11 +45,11 @@ public class Report {
         this.admNo = admNo;
     }
 
-    public Date getReportTime() {
+    public Timestamp getReportTime() {
         return reportTime;
     }
 
-    public void setReportTime(Date reportTime) {
+    public void setReportTime(Timestamp reportTime) {
         this.reportTime = reportTime;
     }
 
@@ -60,11 +61,11 @@ public class Report {
         this.reportReason = reportReason;
     }
 
-    public Integer getReportType() {
+    public Byte getReportType() {
         return reportType;
     }
 
-    public void setReportType(Integer reportType) {
+    public void setReportType(Byte reportType) {
         this.reportType = reportType;
     }
 }

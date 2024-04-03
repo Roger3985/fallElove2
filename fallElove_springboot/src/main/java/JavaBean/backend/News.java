@@ -1,12 +1,13 @@
 package backend;
 
 import java.sql.Date;
+import java.sql.Timestamp;
 
 public class News implements java.io.Serializable{
     private Integer newsNo;
     private String newsTitle;
     private String newsContent;
-    private Date postTime;
+    private Timestamp postTime;
 
     public Integer getNewsNo() {
         return newsNo;
@@ -32,11 +33,11 @@ public class News implements java.io.Serializable{
         this.newsContent = newsContent;
     }
 
-    public Date getPostTime() {
+    public Timestamp getPostTime() {
         return postTime;
     }
 
-    public void setPostTime(Date postTime) {
+    public void setPostTime(Timestamp postTime) {
         this.postTime = postTime;
     }
 }

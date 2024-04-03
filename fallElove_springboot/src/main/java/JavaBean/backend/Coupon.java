@@ -1,16 +1,18 @@
 package backend;
 
 import java.sql.Date;
+import java.sql.Timestamp;
+import java.math.BigDecimal;
 
 public class Coupon implements java.io.Serializable{
     private Integer coupNo;
     private String coupName;
     private String coupCond;
-    private Double coupDisc;
-    private Date coupAddDate;
-    private Date coupExpDate;
-    private Date coupRelDate;
-    private Integer coupRealStat;
+    private BigDecimal coupDisc;
+    private Timestamp coupAddDate;
+    private Timestamp coupExpDate;
+    private Timestamp coupRelDate;
+    private Byte coupRealStat;
 
     public Integer getCoupNo() {
         return coupNo;
@@ -36,43 +38,43 @@ public class Coupon implements java.io.Serializable{
         this.coupCond = coupCond;
     }
 
-    public Double getCoupDisc() {
+    public BigDecimal getCoupDisc() {
         return coupDisc;
     }
 
-    public void setCoupDisc(Double coupDisc) {
+    public void setCoupDisc(BigDecimal coupDisc) {
         this.coupDisc = coupDisc;
     }
 
-    public Date getCoupAddDate() {
+    public Timestamp getCoupAddDate() {
         return coupAddDate;
     }
 
-    public void setCoupAddDate(Date coupAddDate) {
+    public void setCoupAddDate(Timestamp coupAddDate) {
         this.coupAddDate = coupAddDate;
     }
 
-    public Date getCoupExpDate() {
+    public Timestamp getCoupExpDate() {
         return coupExpDate;
     }
 
-    public void setCoupExpDate(Date coupExpDate) {
+    public void setCoupExpDate(Timestamp coupExpDate) {
         this.coupExpDate = coupExpDate;
     }
 
-    public Date getCoupRelDate() {
+    public Timestamp getCoupRelDate() {
         return coupRelDate;
     }
 
-    public void setCoupRelDate(Date coupRelDate) {
+    public void setCoupRelDate(Timestamp coupRelDate) {
         this.coupRelDate = coupRelDate;
     }
 
-    public Integer getCoupRealStat() {
+    public Byte getCoupRealStat() {
         return coupRealStat;
     }
 
-    public void setCoupRealStat(Integer coupRealStat) {
+    public void setCoupRealStat(Byte coupRealStat) {
         this.coupRealStat = coupRealStat;
     }
 }

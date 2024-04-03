@@ -1,6 +1,7 @@
 package JavaBean.member;
 
 import java.sql.Date;
+import java.sql.Timestamp;
 
 public class Member {
 
@@ -9,20 +10,20 @@ public class Member {
     private String memAcc;
     private String memPwd;
     private String memMob;
-    private Integer mGender;
+    private Byte mGender;
     private String memMail;
     private String memAdd;
     private Date memBd;
     private String memCard;
-    private Integer provider;
+    private Byte provider;
     private String clientID;
     private String displayName;
     private String accessToken;
     private String refreshToken;
-    private Date tknExpireTime;
-    private Date creationTime;
-    private Date memberJoinTime;
-    private Integer memStat;
+    private Timestamp tknExpireTime;
+    private Timestamp creationTime;
+    private Timestamp memberJoinTime;
+    private Byte memStat;
 
     public Integer getMemNo() {
         return memNo;
@@ -64,11 +65,11 @@ public class Member {
         this.memMob = memMob;
     }
 
-    public Integer getMGender() {
+    public Byte getMGender() {
         return mGender;
     }
 
-    public void setMGender(Integer mGender) {
+    public void setMGender(Byte mGender) {
         this.mGender = mGender;
     }
 
@@ -104,11 +105,11 @@ public class Member {
         this.memCard = memCard;
     }
 
-    public Integer getProvider() {
+    public Byte getProvider() {
         return provider;
     }
 
-    public void setProvider(Integer provider) {
+    public void setProvider(Byte provider) {
         this.provider = provider;
     }
 
@@ -144,35 +145,35 @@ public class Member {
         this.refreshToken = refreshToken;
     }
 
-    public Date getTknExpireTime() {
+    public Timestamp getTknExpireTime() {
         return tknExpireTime;
     }
 
-    public void setTknExpireTime(Date tknExpireTime) {
+    public void setTknExpireTime(Timestamp tknExpireTime) {
         this.tknExpireTime = tknExpireTime;
     }
 
-    public Date getCreationTime() {
+    public Timestamp getCreationTime() {
         return creationTime;
     }
 
-    public void setCreationTime(Date creationTime) {
+    public void setCreationTime(Timestamp creationTime) {
         this.creationTime = creationTime;
     }
 
-    public Date getMemberJoinTime() {
+    public Timestamp getMemberJoinTime() {
         return memberJoinTime;
     }
 
-    public void setMemberJoinTime(Date memberJoinTime) {
+    public void setMemberJoinTime(Timestamp memberJoinTime) {
         this.memberJoinTime = memberJoinTime;
     }
 
-    public Integer getMemStat() {
+    public Byte getMemStat() {
         return memStat;
     }
 
-    public void setMemStat(Integer memStat) {
+    public void setMemStat(Byte memStat) {
         this.memStat = memStat;
     }
 }

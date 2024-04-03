@@ -3,6 +3,7 @@ package JavaBean.product;
 
 import java.math.BigDecimal;
 import java.sql.Date;
+import java.sql.Timestamp;
 
 public class ProductOrder {
     private Integer pOrdNo;
@@ -12,16 +13,16 @@ public class ProductOrder {
     private String pByrEmail;
     private String pRcvName;
     private String pRcvPhone;
-    private Integer pTakeMethod;
+    private Byte pTakeMethod;
     private String pAddr;
-    private Integer pPayMethod;
+    private Byte pPayMethod;
     private BigDecimal pAllPrice;
     private Integer coupNo;
     private BigDecimal pDisc;
     private BigDecimal pRealPrice;
-    private Date pOrdTime;
-    private Integer pOrdStat;
-    private Integer pStat;
+    private Timestamp pOrdTime;
+    private Byte pOrdStat;
+    private Byte pStat;
 
 
     public Integer getpOrdNo() {
@@ -80,11 +81,11 @@ public class ProductOrder {
         this.pRcvPhone = pRcvPhone;
     }
 
-    public Integer getpTakeMethod() {
+    public Byte getpTakeMethod() {
         return pTakeMethod;
     }
 
-    public void setpTakeMethod(Integer pTakeMethod) {
+    public void setpTakeMethod(Byte pTakeMethod) {
         this.pTakeMethod = pTakeMethod;
     }
 
@@ -96,11 +97,11 @@ public class ProductOrder {
         this.pAddr = pAddr;
     }
 
-    public Integer getpPayMethod() {
+    public Byte getpPayMethod() {
         return pPayMethod;
     }
 
-    public void setpPayMethod(Integer pPayMethod) {
+    public void setpPayMethod(Byte pPayMethod) {
         this.pPayMethod = pPayMethod;
     }
 
@@ -136,27 +137,27 @@ public class ProductOrder {
         this.pRealPrice = pRealPrice;
     }
 
-    public Date getpOrdTime() {
+    public Timestamp getpOrdTime() {
         return pOrdTime;
     }
 
-    public void setpOrdTime(Date pOrdTime) {
+    public void setpOrdTime(Timestamp pOrdTime) {
         this.pOrdTime = pOrdTime;
     }
 
-    public Integer getpOrdStat() {
+    public Byte getpOrdStat() {
         return pOrdStat;
     }
 
-    public void setpOrdStat(Integer pOrdStat) {
+    public void setpOrdStat(Byte pOrdStat) {
         this.pOrdStat = pOrdStat;
     }
 
-    public Integer getpStat() {
+    public Byte getpStat() {
         return pStat;
     }
 
-    public void setpStat(Integer pStat) {
+    public void setpStat(Byte pStat) {
         this.pStat = pStat;
     }
 

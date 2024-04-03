@@ -1,6 +1,7 @@
 package article;
 
 import java.sql.Date;
+import java.sql.Timestamp;
 
 public class ColumnReply {
 
@@ -8,8 +9,8 @@ public class ColumnReply {
     private Integer artNo;
     private Integer memNo;
     private String comContent;
-    private Date comTime;
-    private Integer comStat;
+    private Timestamp comTime;
+    private Byte comStat;
 
     public Integer getColumnReplyNo() {
         return columnReplyNo;
@@ -43,19 +44,19 @@ public class ColumnReply {
         this.comContent = comContent;
     }
 
-    public Date getComTime() {
+    public Timestamp getComTime() {
         return comTime;
     }
 
-    public void setComTime(Date comTime) {
+    public void setComTime(Timestamp comTime) {
         this.comTime = comTime;
     }
 
-    public Integer getComStat() {
+    public Byte getComStat() {
         return comStat;
     }
 
-    public void setComStat(Integer comStat) {
+    public void setComStat(Byte comStat) {
         this.comStat = comStat;
     }
 }

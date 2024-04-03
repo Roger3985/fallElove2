@@ -1,44 +1,44 @@
 package JavaBean.rental;
 
 import java.sql.Date;
+import java.sql.Timestamp;
 
 public class RentalMyTrack {
 
-    private Integer RNo;
-    private Integer MemNo;
-    private Date RTrackTime;
-    private Date ExpRentalDate;
+    private Integer rNo;
+    private Integer memNo;
+    private Timestamp rTrackTime;
+    private Date expRentalDate;
 
-    public Integer getRNo() {
-        return RNo;
+    public Integer getrNo() {
+        return rNo;
     }
 
-    public void setRNo(Integer RNo) {
-        this.RNo = RNo;
+    public void setrNo(Integer rNo) {
+        this.rNo = rNo;
     }
 
     public Integer getMemNo() {
-        return MemNo;
+        return memNo;
     }
 
     public void setMemNo(Integer memNo) {
-        MemNo = memNo;
+        this.memNo = memNo;
     }
 
-    public Date getRTrackTime() {
-        return RTrackTime;
+    public Timestamp getrTrackTime() {
+        return rTrackTime;
     }
 
-    public void setRTrackTime(Date RTrackTime) {
-        this.RTrackTime = RTrackTime;
+    public void setrTrackTime(Timestamp rTrackTime) {
+        this.rTrackTime = rTrackTime;
     }
 
     public Date getExpRentalDate() {
-        return ExpRentalDate;
+        return expRentalDate;
     }
 
     public void setExpRentalDate(Date expRentalDate) {
-        ExpRentalDate = expRentalDate;
+        this.expRentalDate = expRentalDate;
     }
-
 }
