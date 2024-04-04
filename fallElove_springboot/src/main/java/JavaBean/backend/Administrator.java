@@ -6,7 +6,7 @@ public class Administrator {
     private String admName;
     private Byte admStat;
     private String admEmail;
-    private Integer positiornNo;
+    private Integer titleNo;
 
     public Integer getAdmNo() {
         return admNo;
@@ -48,11 +48,11 @@ public class Administrator {
         this.admEmail = admEmail;
     }
 
-    public Integer getPositiornNo() {
-        return positiornNo;
+    public Integer getTitleNo() {
+        return titleNo;
     }
 
-    public void setPositiornNo(Integer positiornNo) {
-        this.positiornNo = positiornNo;
+    public void setTitleNo(Integer titleNo) {
+        this.titleNo = titleNo;
     }
 }
