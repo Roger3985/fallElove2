@@ -1,8 +1,17 @@
 package backend;
 
 public class AdmAuthority {
+
+    private Integer titleNo;
     private Integer authFuncNo;
-    private Integer admNo;
+
+    public Integer getTitleNo() {
+        return titleNo;
+    }
+
+    public void setTitleNo(Integer titleNo) {
+        this.titleNo = titleNo;
+    }
 
     public Integer getAuthFuncNo() {
         return authFuncNo;
@@ -10,13 +19,5 @@ public class AdmAuthority {
 
     public void setAuthFuncNo(Integer authFuncNo) {
         this.authFuncNo = authFuncNo;
-    }
-
-    public Integer getAdmNo() {
-        return admNo;
-    }
-
-    public void setAdmNo(Integer admNo) {
-        this.admNo = admNo;
     }
 }
