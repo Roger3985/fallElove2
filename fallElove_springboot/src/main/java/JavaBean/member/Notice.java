@@ -4,18 +4,18 @@ import java.sql.Date;
 
 public class Notice {
 
-    private Integer notNo;
+    private Integer motNo;
     private Integer memNo;
     private String notContent;
     private Date notTime;
     private Integer notStat;
 
-    public Integer getNotNo() {
-        return notNo;
+    public Integer getMotNo() {
+        return motNo;
     }
 
-    public void setNotNo(Integer notNo) {
-        this.notNo = notNo;
+    public void setMotNo(Integer notNo) {
+        this.motNo = motNo;
     }
 
     public Integer getMemNo() {
