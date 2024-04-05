@@ -10,9 +10,9 @@ public class StudioOrder {
 	private Integer sNo;
 	private Integer admNo;
 	private Date bookedDate;
-	private Boolean bookedTimeMorning;
-	private Boolean bookedTimeAfternoon;
-	private Boolean bookedTimeNight;
+	private Byte bookedTimeMorning;
+	private Byte bookedTimeAfternoon;
+	private Byte bookedTimeNight;
 	private Timestamp sOrdTime;
 	private Byte sOrdStat;
 	private BigDecimal sTtlPrice;
@@ -22,7 +22,7 @@ public class StudioOrder {
 	private String sByrEmail;
 	private Byte sPayMethod;
 	private Byte sPayStat;
-	private Boolean checkInStat;
+	private Byte checkInStat;
 	private String sReturnMark;
 	private BigDecimal sCompensation;
 	
@@ -56,22 +56,22 @@ public class StudioOrder {
 	public void setBookedDate(Date bookedDate) {
 		this.bookedDate = bookedDate;
 	}
-	public Boolean getBookedTimeMorning() {
+	public Byte getBookedTimeMorning() {
 		return bookedTimeMorning;
 	}
-	public void setBookedTimeMorning(Boolean bookedTimeMorning) {
+	public void setBookedTimeMorning(Byte bookedTimeMorning) {
 		this.bookedTimeMorning = bookedTimeMorning;
 	}
-	public Boolean getBookedTimeAfternoon() {
+	public Byte getBookedTimeAfternoon() {
 		return bookedTimeAfternoon;
 	}
-	public void setBookedTimeAfternoon(Boolean bookedTimeAfternoon) {
+	public void setBookedTimeAfternoon(Byte bookedTimeAfternoon) {
 		this.bookedTimeAfternoon = bookedTimeAfternoon;
 	}
-	public Boolean getBookedTimeNight() {
+	public Byte getBookedTimeNight() {
 		return bookedTimeNight;
 	}
-	public void setBookedTimeNight(Boolean bookedTimeNight) {
+	public void setBookedTimeNight(Byte bookedTimeNight) {
 		this.bookedTimeNight = bookedTimeNight;
 	}
 	public Timestamp getsOrdTime() {
@@ -128,10 +128,10 @@ public class StudioOrder {
 	public void setsPayStat(Byte sPayStat) {
 		this.sPayStat = sPayStat;
 	}
-	public Boolean getCheckInStat() {
+	public Byte getCheckInStat() {
 		return checkInStat;
 	}
-	public void setCheckInStat(Boolean checkInStat) {
+	public void setCheckInStat(Byte checkInStat) {
 		this.checkInStat = checkInStat;
 	}
 	public String getsReturnMark() {
@@ -146,9 +146,8 @@ public class StudioOrder {
 	public void setsCompensation(BigDecimal sCompensation) {
 		this.sCompensation = sCompensation;
 	}
+	
 
-	
-	
 	
 
 }

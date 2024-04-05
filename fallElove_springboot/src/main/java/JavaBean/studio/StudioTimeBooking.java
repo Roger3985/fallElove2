@@ -7,10 +7,9 @@ public class StudioTimeBooking {
 	private Integer sOrdNo;
 	private Integer sNo;
 	private Date closeDate;
-	private Boolean closeTimeMorning;
-	private Boolean closeTimeAfternoon;
-	private Boolean closeTimeNight;
-	
+	private Byte closeTimeMorning;
+	private Byte closeTimeAfternoon;
+	private Byte closeTimeNight;
 	
 	public Integer getsTimeNo() {
 		return sTimeNo;
@@ -36,23 +35,25 @@ public class StudioTimeBooking {
 	public void setCloseDate(Date closeDate) {
 		this.closeDate = closeDate;
 	}
-	public Boolean getCloseTimeMorning() {
+	public Byte getCloseTimeMorning() {
 		return closeTimeMorning;
 	}
-	public void setCloseTimeMorning(Boolean closeTimeMorning) {
+	public void setCloseTimeMorning(Byte closeTimeMorning) {
 		this.closeTimeMorning = closeTimeMorning;
 	}
-	public Boolean getCloseTimeAfternoon() {
+	public Byte getCloseTimeAfternoon() {
 		return closeTimeAfternoon;
 	}
-	public void setCloseTimeAfternoon(Boolean closeTimeAfternoon) {
+	public void setCloseTimeAfternoon(Byte closeTimeAfternoon) {
 		this.closeTimeAfternoon = closeTimeAfternoon;
 	}
-	public Boolean getCloseTimeNight() {
+	public Byte getCloseTimeNight() {
 		return closeTimeNight;
 	}
-	public void setCloseTimeNight(Boolean closeTimeNight) {
+	public void setCloseTimeNight(Byte closeTimeNight) {
 		this.closeTimeNight = closeTimeNight;
 	}
+	
+	
 
 }
