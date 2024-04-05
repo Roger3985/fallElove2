@@ -15,7 +15,7 @@ public class Notice {
         return motNo;
     }
 
-    public void setMotNo(Integer notNo) {
+    public void setMotNo(Integer motNo) {
         this.motNo = motNo;
     }
 
