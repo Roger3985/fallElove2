@@ -1,4 +1,4 @@
-package backend;
+package JavaBean.backend;
 
 public class Administrator {
     private Integer admNo;

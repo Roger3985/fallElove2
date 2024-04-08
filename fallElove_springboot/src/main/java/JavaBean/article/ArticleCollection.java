@@ -1,4 +1,4 @@
-package article;
+package JavaBean.article;
 
 public class ArticleCollection {
 
@@ -10,7 +10,7 @@ public class ArticleCollection {
     }
 
     public void setArtNo(Integer artNo) {
-        artNo = artNo;
+        this.artNo = artNo;
     }
 
     public Integer getMemNo() {
@@ -18,6 +18,6 @@ public class ArticleCollection {
     }
 
     public void setMemNo(Integer memNo) {
-        memNo = memNo;
+        this.memNo = memNo;
     }
 }

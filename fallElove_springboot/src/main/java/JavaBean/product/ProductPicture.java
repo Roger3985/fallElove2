@@ -3,7 +3,7 @@ package JavaBean.product;
 public class ProductPicture {
     private Integer pPicNo;
     private Integer  pNo;
-    private Byte[] pPic;
+    private byte[] pPic;
 
     public Integer getpPicNo() {
         return pPicNo;
@@ -21,11 +21,11 @@ public class ProductPicture {
         this.pNo = pNo;
     }
 
-    public Byte[] getpPic() {
+    public byte[] getpPic() {
         return pPic;
     }
 
-    public void setpPic(Byte[] pPic) {
+    public void setpPic(byte[] pPic) {
         this.pPic = pPic;
     }
 }

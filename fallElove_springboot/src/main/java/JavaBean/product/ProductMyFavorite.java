@@ -12,11 +12,11 @@ public class ProductMyFavorite {
         this.pNo = pNo;
     }
 
-    public Integer getmemNo() {
+    public Integer getMemNo() {
         return memNo;
     }
 
-    public void setmemNo(Integer memNo) {
+    public void setMemNo(Integer memNo) {
         this.memNo = memNo;
     }
 }

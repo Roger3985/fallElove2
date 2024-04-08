@@ -1,4 +1,4 @@
-package backend;
+package JavaBean.backend;
 
 import java.sql.Date;
 import java.sql.Timestamp;
@@ -35,11 +35,11 @@ public class ServiceRecord implements java.io.Serializable{
         this.memNo = memNo;
     }
 
-    public Timestamp getRecordTime() {
+    public Date getRecordTime() {
         return recordTime;
     }
 
-    public void setRecordTime(Timestamp recordTime) {
+    public void setRecordTime(Date recordTime) {
         this.recordTime = recordTime;
     }
 

@@ -3,29 +3,29 @@ package JavaBean.rental;
 public class RentalPic implements java.io.Serializable{
     private Integer rPicNo;
     private Integer rNo;
-    private Byte[] rPic;
+    private byte[] rPic;
 
-    public Integer getrPicNo(){
+    public Integer getrPicNo() {
         return rPicNo;
     }
 
-    public void setrPicNo(Integer rPicNo){
+    public void setrPicNo(Integer rPicNo) {
         this.rPicNo = rPicNo;
     }
 
-    public Integer getrNo(){
+    public Integer getrNo() {
         return rNo;
     }
 
-    public void setrNo(Integer rNo){
+    public void setrNo(Integer rNo) {
         this.rNo = rNo;
     }
 
-    public Byte[] getrPic(){
+    public byte[] getrPic() {
         return rPic;
     }
 
-    public void setrPic(Byte[] rPic){
+    public void setrPic(byte[] rPic) {
         this.rPic = rPic;
     }
 }

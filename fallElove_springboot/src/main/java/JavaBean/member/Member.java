@@ -33,11 +33,11 @@ public class Member {
         this.memNo = memNo;
     }
 
-    public String getMName() {
+    public String getmName() {
         return mName;
     }
 
-    public void setMName(String mName) {
+    public void setmName(String mName) {
         this.mName = mName;
     }
 
@@ -65,11 +65,11 @@ public class Member {
         this.memMob = memMob;
     }
 
-    public Byte getMGender() {
+    public Byte getmGender() {
         return mGender;
     }
 
-    public void setMGender(Byte mGender) {
+    public void setmGender(Byte mGender) {
         this.mGender = mGender;
     }
 

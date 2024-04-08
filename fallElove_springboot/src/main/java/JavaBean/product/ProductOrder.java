@@ -24,7 +24,6 @@ public class ProductOrder {
     private Byte pOrdStat;
     private Byte pStat;
 
-
     public Integer getpOrdNo() {
         return pOrdNo;
     }
@@ -33,11 +32,11 @@ public class ProductOrder {
         this.pOrdNo = pOrdNo;
     }
 
-    public Integer getmemNo() {
+    public Integer getMemNo() {
         return memNo;
     }
 
-    public void setmemNo(Integer memNo) {
+    public void setMemNo(Integer memNo) {
         this.memNo = memNo;
     }
 
@@ -160,6 +159,4 @@ public class ProductOrder {
     public void setpStat(Byte pStat) {
         this.pStat = pStat;
     }
-
-
 }
