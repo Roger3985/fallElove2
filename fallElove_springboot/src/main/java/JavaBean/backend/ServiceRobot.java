@@ -1,4 +1,4 @@
-package backend;
+package JavaBean.backend;
 
 public class ServiceRobot implements java.io.Serializable{
     private Integer keywordNo;

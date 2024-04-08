@@ -5,40 +5,40 @@ import java.sql.Date;
 
 public class RentalOrderDetails {
 
-    private Integer ROrdNo;
-    private Integer RNo;
-    private BigDecimal RPrice;
-    private BigDecimal RDesPrice;
+    private Integer rOrdNo;
+    private Integer rNo;
+    private BigDecimal rPrice;
+    private BigDecimal rDesPrice;
 
-    public Integer getROrdNo() {
-        return ROrdNo;
+    public Integer getrOrdNo() {
+        return rOrdNo;
     }
 
-    public void setROrdNo(Integer ROrdNo) {
-        this.ROrdNo = ROrdNo;
+    public void setrOrdNo(Integer rOrdNo) {
+        this.rOrdNo = rOrdNo;
     }
 
-    public Integer getRNo() {
-        return RNo;
+    public Integer getrNo() {
+        return rNo;
     }
 
-    public void setRNo(Integer RNo) {
-        this.RNo = RNo;
+    public void setrNo(Integer rNo) {
+        this.rNo = rNo;
     }
 
-    public BigDecimal getRPrice() {
-        return RPrice;
+    public BigDecimal getrPrice() {
+        return rPrice;
     }
 
-    public void setRPrice(BigDecimal RPrice) {
-        this.RPrice = RPrice;
+    public void setrPrice(BigDecimal rPrice) {
+        this.rPrice = rPrice;
     }
 
-    public BigDecimal getRDesPrice() {
-        return RDesPrice;
+    public BigDecimal getrDesPrice() {
+        return rDesPrice;
     }
 
-    public void setRDesPrice(BigDecimal RDesPrice) {
-        this.RDesPrice = RDesPrice;
+    public void setrDesPrice(BigDecimal rDesPrice) {
+        this.rDesPrice = rDesPrice;
     }
 }
