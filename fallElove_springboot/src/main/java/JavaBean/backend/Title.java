@@ -1,8 +1,8 @@
-package backend;
+package JavaBean.backend;
 
 public class Title {
     private Integer titleNo;
-    private String admName;
+    private String titleName;
 
     public Integer getTitleNo() {
         return titleNo;
@@ -12,11 +12,12 @@ public class Title {
         this.titleNo = titleNo;
     }
 
-    public String getAdmName() {
-        return admName;
+    public String getTitleName() {
+        return titleName;
     }
 
-    public void setAdmName(String admName) {
-        this.admName = admName;
+    public void setTitleName(String titleName) {
+        this.titleName = titleName;
     }
+
 }
