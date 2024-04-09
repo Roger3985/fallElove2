@@ -1,9 +1,9 @@
-package backend;
+package JavaBean.backend;
 
 public class ServicePicture implements java.io.Serializable{
     private Integer servicePicNo;
     private Integer recordNo;
-    private Byte[] servicePic;
+    private byte[] servicePic;
 
     public Integer getServicePicNo() {
         return servicePicNo;
@@ -21,11 +21,11 @@ public class ServicePicture implements java.io.Serializable{
         this.recordNo = recordNo;
     }
 
-    public Byte[] getServicePic() {
+    public byte[] getServicePic() {
         return servicePic;
     }
 
-    public void setServicePic(Byte[] servicePic) {
+    public void setServicePic(byte[] servicePic) {
         this.servicePic = servicePic;
     }
 }

@@ -1,4 +1,4 @@
-package backend;
+package JavaBean.backend;
 
 import java.sql.Date;
 import java.sql.Timestamp;

@@ -1,4 +1,4 @@
-package member;
+package JavaBean.member;
 
 import java.sql.Date;
 import java.sql.Timestamp;

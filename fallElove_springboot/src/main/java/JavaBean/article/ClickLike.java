@@ -1,4 +1,4 @@
-package article;
+package JavaBean.article;
 
 public class ClickLike {
 
@@ -10,7 +10,7 @@ public class ClickLike {
     }
 
     public void setMemNo(Integer memNo) {
-        memNo = memNo;
+        this.memNo = memNo;
     }
 
     public Integer getArtNo() {
@@ -18,6 +18,6 @@ public class ClickLike {
     }
 
     public void setArtNo(Integer artNo) {
-        artNo = artNo;
+        this.artNo = artNo;
     }
 }
